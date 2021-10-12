@@ -53,11 +53,46 @@
 
 	<build>
 		<plugins>
+			
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			
+			<!-- tag::wsdl[] -->
+			<plugin>
+					<groupId>org.jvnet.jaxb2.maven2</groupId>
+					<artifactId>maven-jaxb2-plugin</artifactId>
+					<version>0.14.0</version>
+					<executions>
+						<execution>
+							<goals>
+								<goal>generate</goal>
+							</goals>
+						</execution>
+						<execution>
+							<id>gen-test-schemas</id>
+							<phase>generate-test-sources</phase>
+							<goals>
+								<goal>generate</goal>
+							</goals>
+							<configuration>
+								<generateDirectory>target/generated-test-sources/xjc</generateDirectory>
+								<addTestCompileSourceRoot>true</addTestCompileSourceRoot>
+								<schemaDirectory>src/test/resources</schemaDirectory>
+							</configuration>
+						</execution>
+					</executions>
+					<configuration>
+						<schemaLanguage>WSDL</schemaLanguage>
+						<generatePackage>com.linecode.jcep.wsdl</generatePackage>
+						<schemas>
+							<schema>
+								<url>https://apps.correios.com.br/SigepMasterJPA/AtendeClienteService/AtendeCliente?wsdl</url>
+							</schema>
+						</schemas>
+					</configuration>
+			</plugin>
+			<!-- end::wsdl[] -->
 		</plugins>
 	</build>
 

@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+      
+    <!--
+
+Este arquivo foi gerado pela Arquitetura JavaTM para Implementação de Referência (JAXB) de Bind XML, v2.3.0 
+Consulte <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
+Gerado em: 2021.10.12 às 09:43:55 AM BRT 
+
+  -->
+      
+    <bindings xmlns:tns="http://cliente.bean.master.sigep.bsb.correios.com.br/" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="com.linecode.jcep.wsdl"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="~tns:VerificaSeTodosObjetosCancelados">
+                  
+            <class ref="com.linecode.jcep.wsdl.VerificaSeTodosObjetosCancelados"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:VerificaSeTodosObjetosCanceladosResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.VerificaSeTodosObjetosCanceladosResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:atualizaPagamentoNaEntrega">
+                  
+            <class ref="com.linecode.jcep.wsdl.AtualizaPagamentoNaEntrega"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:atualizaPagamentoNaEntregaResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.AtualizaPagamentoNaEntregaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:atualizaRemessaAgrupada">
+                  
+            <class ref="com.linecode.jcep.wsdl.AtualizaRemessaAgrupada"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:atualizaRemessaAgrupadaResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.AtualizaRemessaAgrupadaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:bloquearObjeto">
+                  
+            <class ref="com.linecode.jcep.wsdl.BloquearObjeto"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:bloquearObjetoResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.BloquearObjetoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaCliente">
+                  
+            <class ref="com.linecode.jcep.wsdl.BuscaCliente"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaClienteResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.BuscaClienteResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaContrato">
+                  
+            <class ref="com.linecode.jcep.wsdl.BuscaContrato"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaContratoResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.BuscaContratoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaDataAtual">
+                  
+            <class ref="com.linecode.jcep.wsdl.BuscaDataAtual"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaDataAtualResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.BuscaDataAtualResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaOpcoes">
+                  
+            <class ref="com.linecode.jcep.wsdl.BuscaOpcoes"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaOpcoesResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.BuscaOpcoesResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaPagamentoEntrega">
+                  
+            <class ref="com.linecode.jcep.wsdl.BuscaPagamentoEntrega"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaPagamentoEntregaResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.BuscaPagamentoEntregaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaServicos">
+                  
+            <class ref="com.linecode.jcep.wsdl.BuscaServicos"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaServicosAdicionaisAtivos">
+                  
+            <class ref="com.linecode.jcep.wsdl.BuscaServicosAdicionaisAtivos"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaServicosAdicionaisAtivosResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.BuscaServicosAdicionaisAtivosResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaServicosResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.BuscaServicosResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaServicosValorDeclarado">
+                  
+            <class ref="com.linecode.jcep.wsdl.BuscaServicosValorDeclarado"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaServicosValorDeclaradoResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.BuscaServicosValorDeclaradoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaServicosXServicosAdicionais">
+                  
+            <class ref="com.linecode.jcep.wsdl.BuscaServicosXServicosAdicionais"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaServicosXServicosAdicionaisResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.BuscaServicosXServicosAdicionaisResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaTarifaVale">
+                  
+            <class ref="com.linecode.jcep.wsdl.BuscaTarifaVale"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:buscaTarifaValeResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.BuscaTarifaValeResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:calculaTarifaServico">
+                  
+            <class ref="com.linecode.jcep.wsdl.CalculaTarifaServico"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:calculaTarifaServicoResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.CalculaTarifaServicoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cancelarObjeto">
+                  
+            <class ref="com.linecode.jcep.wsdl.CancelarObjeto"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cancelarObjetoResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.CancelarObjetoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cancelarPedidoScol">
+                  
+            <class ref="com.linecode.jcep.wsdl.CancelarPedidoScol"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cancelarPedidoScolResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.CancelarPedidoScolResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:consultaCEP">
+                  
+            <class ref="com.linecode.jcep.wsdl.ConsultaCEP"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:consultaCEPResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.ConsultaCEPResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:fechaPlp">
+                  
+            <class ref="com.linecode.jcep.wsdl.FechaPlp"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:fechaPlpResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.FechaPlpResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:fechaPlpVariosServicos">
+                  
+            <class ref="com.linecode.jcep.wsdl.FechaPlpVariosServicos"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:fechaPlpVariosServicosResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.FechaPlpVariosServicosResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:geraDigitoVerificadorEtiquetas">
+                  
+            <class ref="com.linecode.jcep.wsdl.GeraDigitoVerificadorEtiquetas"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:geraDigitoVerificadorEtiquetasResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.GeraDigitoVerificadorEtiquetasResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:getStatusCartaoPostagem">
+                  
+            <class ref="com.linecode.jcep.wsdl.GetStatusCartaoPostagem"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:getStatusCartaoPostagemResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.GetStatusCartaoPostagemResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:getStatusPLP">
+                  
+            <class ref="com.linecode.jcep.wsdl.GetStatusPLP"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:getStatusPLPResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.GetStatusPLPResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:integrarUsuarioScol">
+                  
+            <class ref="com.linecode.jcep.wsdl.IntegrarUsuarioScol"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:integrarUsuarioScolResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.IntegrarUsuarioScolResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:obterClienteAtualizacao">
+                  
+            <class ref="com.linecode.jcep.wsdl.ObterClienteAtualizacao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:obterClienteAtualizacaoResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.ObterClienteAtualizacaoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:obterEmbalagemLRS">
+                  
+            <class ref="com.linecode.jcep.wsdl.ObterEmbalagemLRS"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:obterEmbalagemLRSResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.ObterEmbalagemLRSResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:obterMensagemParametrizada">
+                  
+            <class ref="com.linecode.jcep.wsdl.ObterMensagemParametrizada"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:obterMensagemParametrizadaResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.ObterMensagemParametrizadaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:pesquisarDimensoesServico">
+                  
+            <class ref="com.linecode.jcep.wsdl.PesquisarDimensoesServico"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:pesquisarDimensoesServicoResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.PesquisarDimensoesServicoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:pesquisarEmbalagensPorServico">
+                  
+            <class ref="com.linecode.jcep.wsdl.PesquisarEmbalagensPorServico"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:pesquisarEmbalagensPorServicoResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.PesquisarEmbalagensPorServicoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:pesquisarParametrosPorDescricao">
+                  
+            <class ref="com.linecode.jcep.wsdl.PesquisarParametrosPorDescricao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:pesquisarParametrosPorDescricaoResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.PesquisarParametrosPorDescricaoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:pesquisarServicosAdicionais">
+                  
+            <class ref="com.linecode.jcep.wsdl.PesquisarServicosAdicionais"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:pesquisarServicosAdicionaisResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.PesquisarServicosAdicionaisResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:solicitaEtiquetas">
+                  
+            <class ref="com.linecode.jcep.wsdl.SolicitaEtiquetas"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:solicitaEtiquetasResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.SolicitaEtiquetasResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:solicitaPLP">
+                  
+            <class ref="com.linecode.jcep.wsdl.SolicitaPLP"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:solicitaPLPResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.SolicitaPLPResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:solicitaXmlPlp">
+                  
+            <class ref="com.linecode.jcep.wsdl.SolicitaXmlPlp"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:solicitaXmlPlpResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.SolicitaXmlPlpResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:solicitarPostagemScol">
+                  
+            <class ref="com.linecode.jcep.wsdl.SolicitarPostagemScol"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:solicitarPostagemScolResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.SolicitarPostagemScolResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:validaEtiquetaPLP">
+                  
+            <class ref="com.linecode.jcep.wsdl.ValidaEtiquetaPLP"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:validaEtiquetaPLPResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.ValidaEtiquetaPLPResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:validaPlp">
+                  
+            <class ref="com.linecode.jcep.wsdl.ValidaPlp"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:validaPlpResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.ValidaPlpResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:validarPostagemReversa">
+                  
+            <class ref="com.linecode.jcep.wsdl.ValidarPostagemReversa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:validarPostagemReversaResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.ValidarPostagemReversaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:validarPostagemSimultanea">
+                  
+            <class ref="com.linecode.jcep.wsdl.ValidarPostagemSimultanea"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:validarPostagemSimultaneaResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.ValidarPostagemSimultaneaResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:verificaDisponibilidadeServico">
+                  
+            <class ref="com.linecode.jcep.wsdl.VerificaDisponibilidadeServico"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:verificaDisponibilidadeServicoResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.VerificaDisponibilidadeServicoResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:verificaModalTransporte">
+                  
+            <class ref="com.linecode.jcep.wsdl.VerificaModalTransporte"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:verificaModalTransporteResponse">
+                  
+            <class ref="com.linecode.jcep.wsdl.VerificaModalTransporteResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:SQLException">
+                  
+            <class ref="com.linecode.jcep.wsdl.SQLException"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Exception">
+                  
+            <class ref="com.linecode.jcep.wsdl.Exception"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ErroMontagemRelatorio">
+                  
+            <class ref="com.linecode.jcep.wsdl.ErroMontagemRelatorio"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:servicoAdicionalXML">
+                  
+            <class ref="com.linecode.jcep.wsdl.ServicoAdicionalXML"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:objetoPostal">
+                  
+            <class ref="com.linecode.jcep.wsdl.ObjetoPostal"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:objetoPostalPK">
+                  
+            <class ref="com.linecode.jcep.wsdl.ObjetoPostalPK"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:preListaPostagem">
+                  
+            <class ref="com.linecode.jcep.wsdl.PreListaPostagem"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:cartaoPostagemERP">
+                  
+            <class ref="com.linecode.jcep.wsdl.CartaoPostagemERP"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:contratoERP">
+                  
+            <class ref="com.linecode.jcep.wsdl.ContratoERP"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:clienteERP">
+                  
+            <class ref="com.linecode.jcep.wsdl.ClienteERP"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:gerenteConta">
+                  
+            <class ref="com.linecode.jcep.wsdl.GerenteConta"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:usuarioInstalacao">
+                  
+            <class ref="com.linecode.jcep.wsdl.UsuarioInstalacao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:parametroMaster">
+                  
+            <class ref="com.linecode.jcep.wsdl.ParametroMaster"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:contratoERPPK">
+                  
+            <class ref="com.linecode.jcep.wsdl.ContratoERPPK"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:unidadePostagemERP">
+                  
+            <class ref="com.linecode.jcep.wsdl.UnidadePostagemERP"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:enderecoERP">
+                  
+            <class ref="com.linecode.jcep.wsdl.EnderecoERP"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:servicoERP">
+                  
+            <class ref="com.linecode.jcep.wsdl.ServicoERP"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:servicoSigep">
+                  
+            <class ref="com.linecode.jcep.wsdl.ServicoSigep"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:chancelaMaster">
+                  
+            <class ref="com.linecode.jcep.wsdl.ChancelaMaster"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:servicoAdicionalERP">
+                  
+            <class ref="com.linecode.jcep.wsdl.ServicoAdicionalERP"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:valorDeclarado">
+                  
+            <class ref="com.linecode.jcep.wsdl.ValorDeclarado"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:vigenciaERP">
+                  
+            <class ref="com.linecode.jcep.wsdl.VigenciaERP"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:dimensaoTO">
+                  
+            <class ref="com.linecode.jcep.wsdl.DimensaoTO"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:medidaTO">
+                  
+            <class ref="com.linecode.jcep.wsdl.MedidaTO"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:embalagemLRSMaster">
+                  
+            <class ref="com.linecode.jcep.wsdl.EmbalagemLRSMaster"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:valePostal">
+                  
+            <class ref="com.linecode.jcep.wsdl.ValePostal"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:coletaSimultanea">
+                  
+            <class ref="com.linecode.jcep.wsdl.ColetaSimultanea"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:coleta">
+                  
+            <class ref="com.linecode.jcep.wsdl.Coleta"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:produto">
+                  
+            <class ref="com.linecode.jcep.wsdl.Produto"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:remetente">
+                  
+            <class ref="com.linecode.jcep.wsdl.Remetente"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:pessoa">
+                  
+            <class ref="com.linecode.jcep.wsdl.Pessoa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:servicoAdicionalTO">
+                  
+            <class ref="com.linecode.jcep.wsdl.ServicoAdicionalTO"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:retornoCancelamento">
+                  
+            <class ref="com.linecode.jcep.wsdl.RetornoCancelamento"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:objetoSimplificado">
+                  
+            <class ref="com.linecode.jcep.wsdl.ObjetoSimplificado"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:coletaReversa">
+                  
+            <class ref="com.linecode.jcep.wsdl.ColetaReversa"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:objeto">
+                  
+            <class ref="com.linecode.jcep.wsdl.Objeto"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:mensagemParametrizadaTO">
+                  
+            <class ref="com.linecode.jcep.wsdl.MensagemParametrizadaTO"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:statusGerente">
+                  
+            <typesafeEnumClass ref="com.linecode.jcep.wsdl.StatusGerente"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:tipoGerente">
+                  
+            <typesafeEnumClass ref="com.linecode.jcep.wsdl.TipoGerente"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:statusUsuario">
+                  
+            <typesafeEnumClass ref="com.linecode.jcep.wsdl.StatusUsuario"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:categoriaServico">
+                  
+            <typesafeEnumClass ref="com.linecode.jcep.wsdl.CategoriaServico"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:simNao">
+                  
+            <typesafeEnumClass ref="com.linecode.jcep.wsdl.SimNao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:statusPlp">
+                  
+            <typesafeEnumClass ref="com.linecode.jcep.wsdl.StatusPlp"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:statusObjetoPostal">
+                  
+            <typesafeEnumClass ref="com.linecode.jcep.wsdl.StatusObjetoPostal"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:tipoEmbalagem">
+                  
+            <typesafeEnumClass ref="com.linecode.jcep.wsdl.TipoEmbalagem"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:statusCartao">
+                  
+            <typesafeEnumClass ref="com.linecode.jcep.wsdl.StatusCartao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:tipoBloqueio">
+                  
+            <typesafeEnumClass ref="com.linecode.jcep.wsdl.TipoBloqueio"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:acao">
+                  
+            <typesafeEnumClass ref="com.linecode.jcep.wsdl.Acao"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:tipoMensagem">
+                  
+            <typesafeEnumClass ref="com.linecode.jcep.wsdl.TipoMensagem"/>
+                
+        </bindings>
+          
+    </bindings>
+    
+</bindings>
